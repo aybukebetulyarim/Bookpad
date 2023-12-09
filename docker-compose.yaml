@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    container_name: nomi-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: nomi
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - '3307:3306'
