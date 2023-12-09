@@ -1,0 +1,2 @@
+# Bookpad
+Authentication and authorization operations are performed with JWT using Java Spring Boot and Spring Security, there is a role-playing mechanism, database operations are performed with JPA Repository - MySQL, a custom exception class is applied, REST best practices are applied, a BaseResponse is created and responses are returned properly, MapStruct is used. It is a project in which entities are prevented from returning as response.
